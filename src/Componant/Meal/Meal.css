@@ -1,0 +1,31 @@
+.single-meal img{
+    height: 300px;
+    width: 350px;
+    /* margin: 10px; */
+
+}
+.single-meal{
+    height: 550px;
+    width: 370px;
+    line-height: 20px;
+    border: 1px solid rgb(180, 178, 178);
+    margin-bottom: 20px;
+    position: relative;
+}
+.btn-meal{
+    width: 100%;
+    background-color: rgb(246, 160, 128);
+    border: none;
+    height: 40px;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-meal:hover{
+   background-color: rgb(220, 87, 109);
+}
+.meal-info{
+    padding: 8px;
+}

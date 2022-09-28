@@ -1,0 +1,18 @@
+.nav-bar{
+    display: flex;
+    background-color: burlywood;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 60px;
+}
+.Header-logo h2{
+    /* font-size: 40px; */
+    margin: none;
+    
+}
+.nav-list a{
+    text-decoration: none;
+    color: bisque;
+    padding-left: 20px;
+    
+}
