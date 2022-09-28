@@ -8,11 +8,18 @@
 .Header-logo h2{
     /* font-size: 40px; */
     margin: none;
+    font-weight: 600;
+    color: white;
     
 }
 .nav-list a{
     text-decoration: none;
-    color: bisque;
-    padding-left: 20px;
+    color: rgb(252, 248, 242);
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 600;
     
+}
+.nav-list a:hover{
+    color: crimson;
 }

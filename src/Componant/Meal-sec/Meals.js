@@ -9,7 +9,7 @@ const Meals = () => {
     console.log(cart)
 
     useEffect(()=>{
-        fetch('https://www.themealdb.com/api/json/v1/1/search.php?s=')
+        fetch('https://www.themealdb.com/api/json/v1/1/search.php?s=a')
         .then(res => res.json())
             .then(data => setProducts(data.meals))
     } ,[])
